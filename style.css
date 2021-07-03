@@ -1,5 +1,8 @@
 body{
     background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: 'Yomogi', cursive;
     text-align: justify;
 }
