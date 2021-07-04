@@ -6,6 +6,13 @@ body{
 h1{
     font-size: 50px;
 }
+.box-header{
+    font-size: 30px;
+}
+.exp{
+    color:rgba(238, 130, 130, 0.903);
+    margin-left: 5%;
+}
 p
 {
     margin-bottom: 5%;
@@ -15,7 +22,7 @@ p
 }
 .flexible{
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -44,4 +51,31 @@ p
 }
 .padding-left{
     padding-right: 3%;
+}
+.box-shadow{
+    box-shadow: 10px 10px 30px gray;
+    width:40%;
+    margin:0 5%;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.exp-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left ;
+    
+}
+#left-border1{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, lightblue);
+    border-image-slice: 1;
+}
+#left-border2{
+    border-left: 5px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
